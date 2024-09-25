@@ -1,0 +1,11 @@
+h1 {
+    color: salmon;
+}
+
+a:link, a:hover, a:visited, a:visited:hover, a:active {
+	color: salmon;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
