@@ -6,14 +6,14 @@
 		<ul>
 			<li><a href="/">Home</a></li>
 			<li><a href="/login">Login</a></li>
-			<li><a href="/">Blog</a></li>
+			<li><a href="/blog">Blog</a></li>
 		</ul>
 	</nav>
 </div>
 
 <style>
 .sticky-header {
-  background-color: #333;
+  background-color: #f3f3f3;
   color: #fff;
   position: sticky; /* Apply the sticky positioning */
   top: 0; /* Stick the element to the top of the viewport */
@@ -22,9 +22,11 @@
 
 
 a:link, a:hover, a:visited, a:visited:hover, a:active {
-	color: blue;
+	color: salmon;
 }
-
+a:hover {
+	text-decoration: underline!important;;
+}
 .sticky-header nav {
   display: flex;
   justify-content: center;
