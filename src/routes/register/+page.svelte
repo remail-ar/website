@@ -8,7 +8,7 @@
 
 
 	<form use:form method="POST" action="?/login">
-		<h1>Login</h1>
+		<h1>Register</h1>
 
 		<input type="email" name="email" use:validators={[required, email]} />
 		<HintGroup for="email">
@@ -23,7 +23,7 @@
 		<button formaction="?/register">Register</button>
 	</form>
 
-	<form method="POST" action="?/login"></form>
+	<form method="POST" action="?/register"></form>
 
 	<a href="/register">You don't have an account? Sign up</a>
 
